@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1525px;
+    height: 100px;
+    border: 2px solid aquamarine;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    box-shadow: 10px 10px 20px rgb(104, 169, 169);
+
+
+
+}
+
+.list-container {
+    list-style: none;
+
+    display: flex;
+    margin-left: 70px;
+
+
+}
+
+.list-container>a {
+    text-decoration: none;
+    margin-right: 80px;
+    font-size: 25px;
+}
+
+.web-name {
+    padding: 25px;
+    background-color: rgb(187, 214, 205);
+    margin-right: 50px;
+    font-size: xx-large;
+
+}
+
+.hero-container {
+    display: flex;
+    padding: 5px;
+    width: 70%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.hero {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: rgb(180, 233, 215);
+    width: 1200px;
+}
+
+.season-collections {
+    text-align: center;
+    padding: 20px;
+}
+
+.sec-con1 {
+    text-align: center;
+}
+
+.sectext1 {
+    padding: 10px;
+}
+
+.sectext2 {
+    padding: 10px;
+}
+
+.sectext3 {
+    padding: 10px;
+}
+
+.secbtn1 button {
+    padding: 5px;
+    border: none;
+    background-color: antiquewhite;
+    border-radius: 4px; cursor: pointer;
+}
+
+.secbtn2 button {
+    padding: 5px;
+    border: none;
+    background-color: antiquewhite;
+    border-radius: 4px; cursor: pointer;
+}
+
+.secbtn3 button {
+    padding: 5px;
+    border: none;
+    background-color: antiquewhite;
+    border-radius: 4px; cursor: pointer;
+}
+
+
+.sec-container {
+    display: flex;
+    gap: 25px;
+    text-align: center;
+    align-items: center;
+    margin-left: 120px;
+
+}
+.obsth{
+    text-align: center;
+    padding: 20px;
+}
+.obs-container{
+    display: flex;
+    text-align: center;
+    gap: 25px;
+    margin-left: 120px;
+    margin-bottom: 50px;
+}
